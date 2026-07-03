@@ -1,3 +1,8 @@
+// LeetCode 81 - Search In Rotated Sorted Array II
+// Link - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+// Topic - Binary Search 
+// Time Complexity - O(log n)
+// Space Complexity - O(1)
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
