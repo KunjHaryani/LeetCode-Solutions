@@ -2,7 +2,7 @@
 // Link - https://leetcode.com/problems/find-missing-and-repeated-values/
 // Topic - Hash Table 
 // Time Complexity - O(n^2)
-// Space Complexity - O(1)
+// Space Complexity - O(n^2)
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
