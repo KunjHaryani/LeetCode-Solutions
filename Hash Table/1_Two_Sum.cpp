@@ -2,7 +2,7 @@
 // Link - https://leetcode.com/problems/two-sum/
 // Topic - Hash Table 
 // Time Complexity - O(n)
-// Space Complexity - O(1)
+// Space Complexity - O(n)
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
