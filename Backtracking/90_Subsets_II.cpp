@@ -1,4 +1,4 @@
-// LeetCode 90 - Subsets II
+// LeetCode 90 - Subsets II 
 // Link - https://leetcode.com/problems/subsets-ii/
 // Topic - Backtracking
 // Time Complexity - O(n * 2^n)
@@ -7,7 +7,7 @@ class Solution {
 public:
 
     void getallsubsets(vector<int>& nums,vector<int>& ans,int i,vector<vector<int>> &allsubsets){
-        if(i==nums.size()){
+        if(i == nums.size()){
             allsubsets.push_back({ans});
             return;
         }
